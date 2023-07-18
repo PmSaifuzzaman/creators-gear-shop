@@ -6,6 +6,10 @@
     margin: 0px;
     padding: 0px;
 }
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 /* Nav section style */
 
@@ -77,4 +81,18 @@ header{
 .banner-img-container img{
     width: 80%;
 
+}
+
+/* Sponsor section style */
+.sponsor{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.sponsor-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(199, 188, 188);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
