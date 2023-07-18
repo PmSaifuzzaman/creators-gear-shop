@@ -1,0 +1,23 @@
+/* For mobile device */
+
+@media screen and (max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-container .nav-logo{
+        margin-bottom: 1.5rem;
+    }
+    .nav-content{
+        width: 100%;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-content-container{
+        width: 100%;
+        padding: 1.25rem;
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        text-align: center;
+    }
+}
