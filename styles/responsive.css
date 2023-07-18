@@ -1,6 +1,10 @@
 /* For mobile device */
 
 @media screen and (max-width:576px) {
+    main{
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
     .nav-container{
         flex-direction: column;
     }
@@ -16,8 +20,8 @@
     .banner-content-container{
         width: 100%;
         padding: 1.25rem;
-        margin-left: 1.25rem;
-        margin-right: 1.25rem;
+        /* margin-left: 1.25rem;
+        margin-right: 1.25rem; */
         text-align: center;
     }
     /* Sponsor style */
@@ -29,5 +33,13 @@
         grid-template-columns: repeat(4 , 1fr);
         gap: 1.25rem;
         padding-left: 1rem;
+    }
+
+    /* Product Section */
+    .product-container{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 20px;
+    
     }
 }
