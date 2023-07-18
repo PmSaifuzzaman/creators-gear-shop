@@ -86,7 +86,7 @@ header{
 /* Sponsor section style */
 .sponsor{
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .sponsor-container{
     display: flex;
@@ -96,3 +96,49 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+/* Product section style */
+.product-section{
+    margin-bottom: 100px;
+}
+
+.product-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #3A3A3A;
+    font-size: 1.75rem;
+    font-weight: 600;
+
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+
+}
+
+.single-product-box{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+}
+.single-product-box img{
+    width: 100%;
+}
+.single-product-box h3{
+    color: #18191F;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.single-product-box h4{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.single-product-box p{
+    color: #787885;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+

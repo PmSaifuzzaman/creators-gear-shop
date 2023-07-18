@@ -20,4 +20,14 @@
         margin-right: 1.25rem;
         text-align: center;
     }
+    /* Sponsor style */
+    .sponsor{
+        margin-left: 1rem;
+    }
+    .sponsor-container{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        gap: 1.25rem;
+        padding-left: 1rem;
+    }
 }
